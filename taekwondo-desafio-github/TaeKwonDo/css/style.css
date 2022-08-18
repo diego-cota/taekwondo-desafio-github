@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Menu*/
+.header-super {
+  background-color: white;
+  border-bottom: 3px solid rgba(178, 34, 34);
+}
+.container-header {
+  max-width: 1280px;
+  padding: 15px 1%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo1 {
+  width: 100px;
+  height: 70px;
+  background-image: url("../image/map.jpg");
+  background-size: 100% 100%;
+}
+.logo2 {
+  width: 100px;
+  height: 70px;
+  background-image: url("../image/ftkdam.png");
+  background-size: 100% 100%;
+  order: 3;
+}
+.nav-desktop ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  text-decoration: none;
+  order: 2;
+}
+.nav-desktop a {
+  margin: 50px;
+  text-decoration: none;
+  font-size: 20px;
+  font-style: italic;
+}
+
+/* Inicio */
+.map-container1 {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: blue;
+  color: white;
+}
+.map-container2 {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: red;
+  color: white;
+}
+.mutirao {
+  max-width: 70%;
+}
+.novo-aleixo {
+  max-width: 70%;
+}
+img {
+  max-width: 30%;
+}
+
+p {
+  margin: 0 auto;
+  padding: 5px;
+}
+
+/*Eventos*/
+
+.imagem {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+p {
+  max-width: 50%;
+}
+
+/*História*/
+
+div.noticias_historia {
+  height: 650px;
+  padding-bottom: 20px;
+}
+
+div.noticias_historia div.apresentacao {
+  text-align: center;
+  margin-top: 25px;
+}
+
+div.apresentacao h2 {
+  margin: 10px;
+}
+
+div.historia {
+  text-align: center;
+  margin: 35px;
+}
+div.historia h3 {
+  margin: 20px;
+}
+
+div.historia p {
+  max-width: 900px;
+  padding: 0 1%;
+  margin: 0 auto;
+}
+
+section.principais_titulos {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+section.principais_titulos h4 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+div.titulos {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.titulos img {
+  order: 1;
+}
